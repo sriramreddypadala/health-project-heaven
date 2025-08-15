@@ -1,4 +1,4 @@
-import { ExternalLink, UserCheck, Video, Heart, Calendar, Pill, FileText } from "lucide-react";
+import { ExternalLink, UserCheck, Video, Heart, Calendar, Pill, FileText, Activity } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -22,6 +22,7 @@ const iconMap = {
   "calendar": Calendar,
   "pill": Pill,
   "file-text": FileText,
+  "activity": Activity,
 };
 
 const colorVariants = {

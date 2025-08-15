@@ -1,5 +1,13 @@
 [
   {
+    "id": "care360-monitor",
+    "name": "Care360 Monitor",
+    "description": "Comprehensive 360° healthcare monitoring and insights platform",
+    "url": "https://biosentinel-360.netlify.app/",
+    "icon": "activity",
+    "color": "accent"
+  },
+  {
     "id": "patient-portal",
     "name": "Patient Portal",
     "description": "Secure access to medical records and appointments",
