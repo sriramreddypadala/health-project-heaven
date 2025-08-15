@@ -1,0 +1,50 @@
+[
+  {
+    "id": "patient-portal",
+    "name": "Patient Portal",
+    "description": "Secure access to medical records and appointments",
+    "url": "https://demo-patient-portal.lovable.app",
+    "icon": "user-check",
+    "color": "primary"
+  },
+  {
+    "id": "telemedicine",
+    "name": "Telemedicine Platform",
+    "description": "Virtual consultations with healthcare providers",
+    "url": "https://demo-telemedicine.lovable.app",
+    "icon": "video",
+    "color": "success"
+  },
+  {
+    "id": "health-tracker",
+    "name": "Health Tracker",
+    "description": "Monitor vital signs and health metrics",
+    "url": "https://demo-health-tracker.lovable.app",
+    "icon": "heart",
+    "color": "accent"
+  },
+  {
+    "id": "appointment-system",
+    "name": "Appointment System",
+    "description": "Schedule and manage medical appointments",
+    "url": "https://demo-appointments.lovable.app",
+    "icon": "calendar",
+    "color": "primary"
+  },
+  {
+    "id": "pharmacy-management",
+    "name": "Pharmacy Management",
+    "description": "Prescription tracking and medication management",
+    "url": "https://demo-pharmacy.lovable.app",
+    "icon": "pill",
+    "color": "success"
+  },
+  {
+    "id": "lab-results",
+    "name": "Lab Results Portal",
+    "description": "View and download laboratory test results",
+    "url": "https://demo-lab-results.lovable.app",
+    "icon": "file-text",
+    "color": "accent"
+  }
+]
