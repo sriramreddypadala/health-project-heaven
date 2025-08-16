@@ -1,13 +1,17 @@
 import Header from "@/components/Header";
 import ProjectGrid from "@/components/ProjectGrid";
+import TeamSection from "@/components/TeamSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen">
       <Header />
-      <main className="py-8">
+      <main>
         <ProjectGrid />
+        <TeamSection />
       </main>
+      <Footer />
     </div>
   );
 };

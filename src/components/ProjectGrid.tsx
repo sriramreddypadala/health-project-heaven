@@ -74,7 +74,7 @@ const ProjectGrid = () => {
   }
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-16 bg-gradient-to-br from-gray-50 via-white to-blue-50 min-h-screen">
       <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm} />
       
       {filteredProjects.length === 0 ? (
@@ -87,15 +87,9 @@ const ProjectGrid = () => {
           </p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {filteredProjects.map((project, index) => (
-            <div
-              key={project.id}
-              className="animate-fade-in"
-              style={{ animationDelay: `${index * 100}ms` }}
-            >
-              <ProjectCard project={project} />
-            </div>
+            <ProjectCard key={project.id} project={project} index={index} />
           ))}
         </div>
       )}
