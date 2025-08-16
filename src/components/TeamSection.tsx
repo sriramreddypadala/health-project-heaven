@@ -34,16 +34,16 @@ const TeamSection = () => {
       description: "Dedicated to integrating modern technology into Care4Us, making healthcare systems more practical and accessible. He contributes to creating solutions that are adaptable and effective in real-world use."
     },
     {
-      name: "S. Bhargavi",
-      image: bhargaviImage,
-      portfolio: "https://bhargavi1010.netlify.app/",
-      description: "Committed to applying technology in meaningful ways that strengthen the impact of Care4Us. She focuses on problem-solving approaches that improve efficiency and reliability."
-    },
-    {
       name: "M. Eeshitha",
       image: eeshithaImage,
       portfolio: "https://eeshi.netlify.app/",
       description: "Ensures that Care4Us delivers a seamless and intuitive user experience for all. She works on making technology both accessible and engaging for healthcare providers and patients alike."
+    },
+    {
+      name: "S. Bhargavi",
+      image: bhargaviImage,
+      portfolio: "https://bhargavi1010.netlify.app/",
+      description: "Committed to applying technology in meaningful ways that strengthen the impact of Care4Us. She focuses on problem-solving approaches that improve efficiency and reliability."
     },
     {
       name: "Sai Satya",
